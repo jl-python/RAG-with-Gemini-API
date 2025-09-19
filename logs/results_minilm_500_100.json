@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What role does Stockfish 16 play in annotating the ChessBench dataset, and how do these annotations support amortized planning models in learning better policies?",
+    "answer": "Based on the provided context, Stockfish 16 is mentioned as a point of comparison for the models, ablations, and searchless policy/value networks, alongside Leela Chess Zero and AlphaZero.\n\nThe text does not state that Stockfish 16 plays a role in annotating the ChessBench dataset, nor does it describe how such annotations would support amortized planning models in learning better policies. The details regarding dataset creation are referred to Appendix A, which is not provided here.",
+    "sources": [
+      "Chess Bench with Stockfish Paper.pdf",
+      "Chess Bench with Stockfish Paper.pdf",
+      "Chess Bench with Stockfish Paper.pdf",
+      "Chess Bench with Stockfish Paper.pdf"
+    ]
+  },
+  {
+    "question": "How does Maia-2\u2019s skill-aware attention mechanism adjust move predictions when modeling players of different skill levels?",
+    "answer": "Maia-2\u2019s skill-aware attention mechanism enables it to adapt its move predictions by accounting for the skill levels of both the active player and the opponent player. This allows for varying skill level configurations to result in better aligned human move predictions.",
+    "sources": [
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf"
+    ]
+  },
+  {
+    "question": "What types of datasets were used to train ChessGPT, and how do the game, language, and mixed datasets each contribute to improving its performance?",
+    "answer": "Based on the provided context:\n\n*   **Types of datasets used to train ChessGPT:** The context explicitly mentions a \"chess-specific language dataset\" (Table 10) and refers to ChessGPT being \"trained on our database.\" Table 9 also indicates a \"dataset statistics breakdown for each data subset,\" implying multiple subsets, but their specific names (like \"game,\" \"language,\" or \"mixed\") are not detailed in the provided snippets.\n\n*   **How game, language, and mixed datasets each contribute to improving its performance:** The provided text does not explain how \"game,\" \"language,\" or \"mixed\" datasets specifically contribute to improving ChessGPT's performance. It only states that ChessGPT's performance is assessed in three primary dimensions: \"Chess modeling ability,\" \"Value judgement ability,\" and \"Policy ability.\" The \"Chess Modeling capability\" focuses on the model's proficiency in accurately tracking the game. The contribution of specific dataset types to these abilities is not described.",
+    "sources": [
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf"
+    ]
+  }
+]

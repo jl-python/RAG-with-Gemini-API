@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What role does Stockfish 16 play in annotating the ChessBench dataset, and how do these annotations support amortized planning models in learning better policies?",
+    "answer": "Stockfish 16 plays a crucial role in annotating the ChessBench dataset by providing **state-values** for 530 million board states.\n\nThese annotations support amortized planning models in learning better policies by:\n*   Providing expert-derived \"state-values\" which are useful from a reinforcement learning perspective.\n*   Facilitating **policy learning** and **value function learning**, allowing models to learn from Stockfish 16's complex planning algorithm. This essentially helps in distilling an approximation of Stockfish 16 into searchless policy/value networks.",
+    "sources": [
+      "Chess Bench with Stockfish Paper.pdf",
+      "Chess Bench with Stockfish Paper.pdf",
+      "Chess Bench with Stockfish Paper.pdf",
+      "Chess GPT Paper.pdf"
+    ]
+  },
+  {
+    "question": "How does Maia-2\u2019s skill-aware attention mechanism adjust move predictions when modeling players of different skill levels?",
+    "answer": "Maia-2's skill-aware attention mechanism adjusts move predictions by adapting its focus to reflect the strategic considerations and positional understanding of players at different skill levels. This allows it to adaptively prioritize features of the chess position that are more relevant to a player of a specific skill level, accounting for both the active player's and the opponent's skill levels.",
+    "sources": [
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf"
+    ]
+  },
+  {
+    "question": "What types of datasets were used to train ChessGPT, and how do the game, language, and mixed datasets each contribute to improving its performance?",
+    "answer": "The datasets used to train ChessGPT are:\n*   **Game dataset**\n*   **Language dataset**\n*   **Mixed dataset**\n*   **Conversation dataset**\n\nWhile the text describes the content of the game, language, and mixed datasets (e.g., the Language dataset records chess-associated knowledge and discussions, the Mixed dataset incorporates both game data and natural language elements like game analysis), it does not explicitly detail how each of these datasets *specifically contributes to improving ChessGPT's performance*. It only states that ChessGPT leverages these datasets.",
+    "sources": [
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf"
+    ]
+  }
+]

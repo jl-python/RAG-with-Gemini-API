@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What role does Stockfish 16 play in annotating the ChessBench dataset, and how do these annotations support amortized planning models in learning better policies?",
+    "answer": "Based on the provided context:\n\n*   The text mentions that ChessBench shows the feasibility of \"distilling an approximation of Stockfish 16, a complex planning algorithm.\" However, it **does not state that Stockfish 16 plays a role in annotating the ChessBench dataset.**\n*   The context mentions \"annotation language\" (Lt) is paired with chessboard states (St) to train a ChessCLIP model to \"bridge the modality of policy and language.\" While this suggests annotations support policy learning, the text **does not explain how these annotations specifically support \"amortized planning models in learning better policies,\" nor does it link this process back to Stockfish 16.**",
+    "sources": [
+      "Chess Bench with Stockfish Paper.pdf",
+      "Chess Bench with Stockfish Paper.pdf",
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf"
+    ]
+  },
+  {
+    "question": "How does Maia-2\u2019s skill-aware attention mechanism adjust move predictions when modeling players of different skill levels?",
+    "answer": "Maia-2\u2019s skill-aware attention mechanism adjusts move predictions by adapting its focus to reflect the strategic considerations and positional understanding of players at different skill levels. This allows it to adaptively prioritize features of the positions that are more relevant to the specific skill level configuration of both the active player and the opponent.",
+    "sources": [
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf",
+      "Maia-2 Paper.pdf"
+    ]
+  },
+  {
+    "question": "What types of datasets were used to train ChessGPT, and how do the game, language, and mixed datasets each contribute to improving its performance?",
+    "answer": "Based on the provided context, the following types of datasets were used to train ChessGPT:\n\n1.  **Chess-specific language dataset:** Mentioned in Table 10 as being used for training ChessGPT.\n2.  **Mixed game-language dataset:** Established from around 83k chess videos, resulting in million-scale English transcripts and board-language pairs.\n3.  **Instruction-tuning & conversation dataset:** Mentioned as a section heading (3.4), indicating its use.\n\nThe provided text states that these datasets were used for training ChessGPT, but it **does not elaborate on how the game, language, and mixed datasets each specifically contribute to improving its performance.**",
+    "sources": [
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf",
+      "Chess GPT Paper.pdf"
+    ]
+  }
+]
