@@ -1,0 +1,14 @@
+{
+  "python": "3.10.12",
+  "packages": {
+    "torch": "2.8.0+cu126",
+    "transformers": "4.56.1",
+    "sentence-transformers": "5.1.0",
+    "chromadb": "1.1.0",
+    "langchain": "0.3.27",
+    "langchain-community": "0.3.29",
+    "langchain-google-genai": "unknown",
+    "google-generativeai": "0.8.5",
+    "pypdf": "6.0.0"
+  }
+}

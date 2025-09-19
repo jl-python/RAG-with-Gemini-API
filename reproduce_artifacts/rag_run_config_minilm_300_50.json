@@ -1,0 +1,7 @@
+{
+  "chunk_size": 300,
+  "chunk_overlap": 50,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "llm": "gemini-2.5-flash",
+  "retriever_k": 4
+}
